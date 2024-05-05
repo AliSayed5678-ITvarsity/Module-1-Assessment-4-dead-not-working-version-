@@ -1,0 +1,83 @@
+table{
+    border-collapse: separate ;
+    border-width: 4px ;
+    border-style: solid ;
+    border-color: #424242 ;
+    font-size: 20px ;
+    font-family: cursive ;
+    background-color: #EFFBEF ;
+}
+
+th{
+    font-weight: 800 ;
+    font-size: 25px ;
+    padding-left: 15px ;
+    padding-right: 15px ;
+    font-family: serif ;
+}
+
+body{
+    background-color: #D8CEF6 ;
+}
+
+h1{
+    font-size: 45px ;
+    font-family: inherit ;
+    color: #000000 ;
+    padding-left: 65px ;
+}
+
+h2{
+    font-size: 30px ;
+    font-family: inherit ;
+    padding-left: 190px;
+    color: #000000 ;
+}
+
+#Home a{
+    text-decoration: none ;
+    font-size: 30px;
+    font-family: serif ;
+    
+    background-image: url(icons/H.jpg) ;
+    background-repeat: no-repeat ;
+    display: list-item ;
+    padding-left: 40px ;
+    color: #01DF3A ;
+}
+
+#Home a:hover{
+    background-image: url(icons/woosh.jpg) ;
+}
+
+#About a{
+   text-decoration: none ;
+    font-size: 30px;
+    font-family: serif ;
+    color: #01DF3A ;
+    
+    background-image: url(icons/R2.png) ;
+    background-repeat: no-repeat ;
+    display: list-item ;
+    padding-left: 40px ;
+}
+
+#About a:hover{
+    background-image: url(icons/woosh.jpg) ;
+}
+
+#Index a{
+    text-decoration: none ;
+    font-size: 30px;
+    font-family: serif ;
+    color: #01DF3A ;
+    
+    background-image: url(icons/cookie.png) ;
+    background-repeat: no-repeat ;
+    display: list-item ;
+    padding-left: 40px ;
+}
+
+#Index a:hover{
+    background-image: url(icons/woosh.jpg) ;
+}
